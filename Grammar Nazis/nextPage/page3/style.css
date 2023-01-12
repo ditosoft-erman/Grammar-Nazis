@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    background-color:rgb(245, 109, 109);
+}
+
+.menu {
+    height: 80vh;
+    width: 70vw;
+    margin: 5rem auto;
+    overflow-x: hidden;
+    background: palegoldenrod;
+    box-shadow: 1px 2px 60px rgba(0, 0, 0, 4) ;
+}
+/*piktyur*/
+.menu #gLife #life .lifelife{
+    height: 50px;
+    width: 50px;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Grammar_Nazi_Icon.svg/600px-Grammar_Nazi_Icon.svg.png?20150804063149");
+    background-size: cover;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+/*list sa piktyur*/
+.menu #gLife #life {
+    display: inline-block;
+    
+
+}
+.menu .sentence1 {
+    background-color: rebeccapurple;
+    margin-left: 20%;   
+    width:100px;
+}
+.sentence1 #iayb {
+    margin-top: 15%;
+    font-size: 80px;
+    left: 25%;
+    position: absolute;
+}
+#inco1 {
+    visibility: hidden;
+    margin-left: 200px;
+    transform: rotate(-40deg);
+    position: absolute;
+    margin-right: 100px;
+}
+#inco2 {
+    visibility: hidden;
+    position: absolute;
+    margin-top: 36px;
+    margin-left: 900px;
+    transform: rotate(20deg);
+}
+#inco3 {
+    visibility: hidden;
+    position: absolute;
+    margin-right: 100px;
+    margin-left: 45%;
+    margin-top: 28%;
+}

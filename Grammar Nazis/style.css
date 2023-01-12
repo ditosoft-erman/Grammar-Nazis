@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+body {
+    background-color:rgb(245, 109, 109);
+}
+
+.menu {
+    height: 80vh;
+    width: 70vw;
+    margin: 5rem auto;
+    overflow-x: hidden;
+    background: url("image/tenor.gif");
+    background-size: cover/contain;
+    box-shadow: 1px 2px 60px rgba(0, 0, 0, 4) ;
+}
+
+.menu #logo {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    margin-left: 28%;
+    margin-top: 7%;    
+}
+.toBegin {
+    margin-left: 41.3%;
+    margin-top: 35%;
+}
+p {
+    height: 70px;
+    width: 95%;
+    font-size: 20px;
+    background-color: firebrick;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    cursor: pointer;
+ 
+}
+p:hover {
+   background-color: red;
+   opacity: 0.9; 
+}
+
+#ctb {
+    color:black;
+    text-decoration: none;
+}

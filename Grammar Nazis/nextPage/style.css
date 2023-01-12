@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Cairo', sans-serif;
+    
+}
+
+body {
+    background-color:rgb(245, 109, 109);
+    
+}
+
+.menu {
+    height: 80vh;
+    width: 70vw;
+    margin: 5rem auto;
+    overflow-x: hidden;
+    background: palegoldenrod;
+    background-size: cover/contain;
+    box-shadow: 1px 2px 60px rgba(0, 0, 0, 4);
+    
+}
+.menu #blackboard {
+    position: absolute;
+    height: 60vh;
+    width: 46vw;
+    left: 0;
+    margin-top: 3.5%;
+    margin-left: 34.3%;
+}
+.instra {
+    position: absolute;
+    top: 0;
+    margin-left: 37.9%;
+    transform: translateY(240%);
+    z-index: 1;
+}
+.instra1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 39.9%;
+    transform: translateY(320%);
+    z-index: 1;
+    letter-spacing: -1px;
+}
+.instra2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 40.1%;
+    letter-spacing: -1px;
+    transform: translateY(400%);
+    z-index: 1;
+}
+.instra3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 40.3%;
+    transform: translateY(479%);
+    z-index: 1;
+}
+ /*Proceed code below */
+.instra4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 73.9%;
+    transform: translateY(830%);
+    z-index: 1;
+    background: firebrick;
+    border: 1px solid black;
+    height: 58px;
+    width:8.29%;
+    cursor: pointer; 
+}
+
+.instra4:hover {
+    background: red;
+}
+#ins{
+    height: 70px;
+    width: 95%;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    color: white;
+}
